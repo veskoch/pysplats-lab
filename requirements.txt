@@ -1,0 +1,5 @@
+numpy
+plyfile
+matplotlib
+scipy
+pyglm
