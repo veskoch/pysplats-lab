@@ -1,6 +1,6 @@
-# A simple Spacetime Gaussian Renderer
+# A Simple Spacetime Gaussian Renderer
 
-> An educational, CPU-based renderer for understanding 4D Spacetime Gaussian Splatting in pure Python.
+> An educational, CPU-based renderer for understanding 4D Spacetime Gaussian Splatting in pure Python
 
 This is a small repository which I put together learning how to implement a renderer of [Gaussian Splats](https://arxiv.org/pdf/2312.16812) – on the CPU, in Python, for simplicity.
 
@@ -13,7 +13,7 @@ My primary goal was to deconstruct the the math from the original paper and unde
 
 - [Data_Flow.md](Data_Flow.md) – The primary technical documentation for the project
 - [Notebook.ipynb](Notebook.ipynb) – Hands-on entry-point to the repo with executable examples of how to use your rendering library
-- [A Gentle Start to 4D Gaussians: Writing a CPU Renderer in Python](https://dev.vesko.ch/192/) – A blog post where I shared notes on some of my "gotcha" moments & lessons learned
+- [A Gentle Start to 4D Gaussians: Writing a CPU Renderer in Python](https://dev.vesko.ch/gentle-start-to-4d-gaussians/) – A blog post where I shared notes on some of my "gotcha" moments & lessons learned
 
 
 #### Overview
