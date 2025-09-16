@@ -1,5 +1,6 @@
-# Moving Splats Renderer
+# A simple Spacetime Gaussian Renderer
 
+> An educational, CPU-based renderer for understanding 4D Spacetime Gaussian Splatting in pure Python.
 
 This is a small repository which I put together learning how to implement a renderer of [Gaussian Splats](https://arxiv.org/pdf/2312.16812) – on the CPU, in Python, for simplicity.
 
@@ -7,15 +8,15 @@ My primary goal was to deconstruct the the math from the original paper and unde
 
 
 
-### Getting Started
+## Getting Started
 
-g post where I shared notes on some of my "gotcha" moments & lessons learned
+
 - [Data_Flow.md](Data_Flow.md) – The primary technical documentation for the project
 - [Notebook.ipynb](Notebook.ipynb) – Hands-on entry-point to the repo with executable examples of how to use your rendering library
-- [A Gentle Start to 4D Gaussians: Writing a CPU Renderer in Python](https://dev.vesko.ch/192/) – A blo
+- [A Gentle Start to 4D Gaussians: Writing a CPU Renderer in Python](https://dev.vesko.ch/192/) – A blog post where I shared notes on some of my "gotcha" moments & lessons learned
 
 
-##### Overview
+#### Overview
 
 The codebase is structured to explicitly mirror the stages of a modern GPU rendering pipeline.
 
@@ -34,8 +35,7 @@ The `src` directory is organized in the following way:
 
 
 
-
-##### What this repo is not
+#### What this repo is not
 
 *  This is definitely not a production renderer. It is a learning exercise to understand the *how* and *why* behind Gaussian Splatting.
 *   It is not optimized for performance.. The entire pipeline runs on the CPU and is implemented in Python, which is orders of magnitude slower than a proper C++/CUDA implementation. The focus is on algorithmic transpar
