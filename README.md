@@ -43,7 +43,12 @@ The `src` directory is organized in the following way:
 
 ## Acknowledgements
 
-Articles & code bases which helped me learn how 3D Gaussian Splats work
+Articles & code bases which helped me in the process.
+
+
+Data:
+- [Raw files for the 3D video data by facebookresearch/Neural_3D_Video](https://github.com/facebookresearch/Neural_3D_Video/releases/tag/v1.0)
+
 
 Articles:
 - https://www.thomasantony.com/posts/gaussian-splatting-renderer/
